@@ -73,7 +73,7 @@ const FormExtension = {
       <label for="userQuestion">Melding</label>
       <textarea class="userQuestion" name="userQuestion" required></textarea><br><br>
 
-      <input type="submit" class="submit" value="Submit">
+      <input type="submit" class="submit" value="Send">
     `;
 
     // Prefill the form fields with the variables from trace.payload
