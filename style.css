@@ -47,7 +47,11 @@
   font-size: 1.12em;
   transform: translateY(-2em);
   }
-  
+  .vfrc-avatar {
+      background-color: #ffffff;
+      shadow: none;
+  }
+
   .vfrc-chat--session-time,
   .vfrc-chat--status::placeholder {
   background-image: none;
