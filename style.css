@@ -55,7 +55,7 @@
 
 .vfrc-assistant-info .vfrc-avatar {
     width: 1.25em;
-    height: auto; 
+    height: 1.25em; 
 }
   .vfrc-chat--session-time,
   .vfrc-chat--status::placeholder {
