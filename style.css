@@ -50,7 +50,12 @@
   .vfrc-avatar {
       background-color: #ffffff;
       shadow: none;
+      box-shadow: none;
   }
+
+.vfrc-assistant-info .vfrc-avatar {
+    size: 1.2em;
+}
 
   .vfrc-chat--session-time,
   .vfrc-chat--status::placeholder {
@@ -64,12 +69,7 @@
   background-repeat: no-repeat;
   background-position: left;
   }
-  
-  /* Knappestiler */
-  .vfrc-button--thumbs-up {
-  size: 50%;
-  background-color: var(--text-color-secondary);
-  }
+
   
   .vfrc-button--secondary {
   border-radius: 10px;
@@ -168,7 +168,7 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: var(--button-fill);
+  background-color: #a1b0b4;
   }
   
   .vfrc-chat-input textarea:focus {
